@@ -1,0 +1,796 @@
+<!DOCTYPE html><html lang="ru"><head>
+<title>Главная</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:image" content="images/logo.png">
+<meta property="og:title" content="Главная">
+<meta name="description" property="og:description" content="">
+<meta name="yandex-verification" content="b97003bbe12b382e">
+
+<meta name="keywords" content="">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="7 days">
+
+<link rel="apple-touch-icon" href="images/Logo/logo.jpg">
+<link rel="icon" href="images/Logo/logo.jpg" type="image/jpg">
+
+<style>
+	.slider-container {
+	  width: 100%; /* Адаптивная ширина */
+	  max-width: 600px; /* Максимальная ширина */
+	  height: 400px;
+	  overflow: hidden;
+	  position: relative;
+	  margin: 20px auto;
+	}
+  
+	.slider {
+	  display: flex;
+	  transition: transform 0.5s ease-in-out;
+	}
+  
+	.slide {
+	  min-width: 100%;
+	}
+  
+	.slide img {
+	  width: 100%;
+	  height: auto;
+	  display: block;
+	}
+  
+	.slider-indicators {
+	  position: absolute;
+	  bottom: 10px;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  display: flex;
+	}
+  
+	.indicator {
+	  width: 10px;
+	  height: 10px;
+	  border-radius: 50%;
+	  background-color: rgba(0, 0, 0, 0.3);
+	  margin: 0 5px;
+	  cursor: pointer;
+	}
+  
+	.indicator.active {
+	  background-color: rgba(0, 0, 0, 0.7);
+	}
+  
+	@media (max-width: 600px) {
+	  .slider-container {
+		height: 300px; /* Уменьшаем высоту на маленьких экранах */
+	  }
+	}
+  </style>
+
+<link rel="stylesheet" href="css/settings.css" type="text/css"><link rel="stylesheet" href="css/style-red.min.css">
+<link rel="stylesheet" href="css/thk.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/mailsender.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script>
+$('#myModalMap').on('shown.bs.modal', function () {
+	alert('gfg');
+    google.maps.event.trigger(map, "resize");
+    return map.setCenter(mapCenterLatLng);
+});
+</script>
+
+</head>
+<body>
+
+<div class="sm_container" id="sm_container">
+      <div class="sm_item">
+        <a href="https://www.instagram.com/benderski_hleb/" target="_blank" <div="" class="thk-list-image-glint"><img src="images/in.png" alt="Instagram"></a></div>
+      </div>
+    
+
+
+<div>
+	<div class="wrapper">
+		<div id="page-complete">
+
+
+<div class="">
+<div><div>
+	
+<style type="text/css">
+   #go-to-orders{
+
+   }
+
+   .affix-top{
+     top:1%;
+     right:1%; 
+	 z-index:100;
+	 position:fixed;
+   }
+   .affix{
+     top:1%;
+     right:1%; 
+	 z-index:10000;
+   }
+   
+.gto-button-color {
+  background: linear-gradient(to bottom, rgba(134,20,39,1) 0%,rgba(179,27,52,1) 100%);
+  border: 1px solid #420A13;
+  color:#fff;
+  text-decoration:none;
+}
+  
+.gto-button-color:hover {
+	background: linear-gradient(to bottom,  rgba(255,55,79,1) 0%,rgba(177,27,44,1) 100%);
+	color:#fff;
+	text-decoration:none;
+}     
+.gto-button-color:active{
+	color:#fff;
+}
+.gto-button-color:focus{
+	color:#fff;
+}
+
+
+.gto-button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 7px 20px 9px;
+  margin: .5em .5em .5em 0;
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  -webkit-transition: 0.1s linear;
+  -moz-transition: 0.1s linear;
+  -ms-transition: 0.1s linear;
+  -o-transition: 0.1s linear;
+  transition: 0.1s linear;
+}
+
+.gto-button {
+  border-radius: 2px;
+  box-shadow: inset rgba(255,255,255,0.3) 1px 1px 0;
+}
+  
+.gto-button:active {
+    box-shadow: inset rgba(0,0,0,0.4) 0px 0px 6px;
+}
+
+.gto-icon{
+  font-size: 2em;
+  font-weight: normal;
+  vertical-align: middle; 
+  line-height: 0;
+  margin-right: .1em;
+}  
+.gto-button-color:hover .gto-icon{
+  color:yellow;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) { 
+.margin-top-md{
+  margin-top: 30px;
+}
+}
+
+</style>	
+ <script>
+  
+  $(document).ready(function() {
+  		$("#go-to-orders").removeClass("hidden");		
+		$("#go-to-orders").affix();	
+  });
+  
+  $(window).scroll(function(){
+   if ( $(window).scrollTop() >= 30 ){
+      $('#go-to-orders').removeClass("margin-top-md");		
+   }else if($(window).scrollTop() < 30)
+   {
+   	$('#go-to-orders').addClass("margin-top-md");		
+   }
+});
+ </script>
+		<header class="header">
+			<div class="container header-container">
+				<div class="logo-container">
+					<a class="logo" href="/" style="width: 150px; height: 111px; background-image: url('images/Logo/logo.jpg'); background-size: contain; background-repeat: no-repeat;"></a>
+				</div>
+				<div class="order-phone">
+					<div class="order-phone-text">Стол заказов: <span class="order-phone-time">с 8:00 до 20:00</span></div>
+					<div class="order-phone-number">
+						<i class="fa fa-phone" aria-hidden="true"></i> 0(552)20-300
+					</div>
+				</div>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+					<span class="sr-only">Toggle navigation</span> <span class="fa fa-bars"></span>
+				</button>
+				<nav class="nav-menu">
+					<div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="dropdown">
+								<a href="/О компании/История БХК/" class="dropdown-toggle" data-toggle="dropdown">О компании</a>
+								<ul class="dropdown-menu">
+									<li><a href="/О компании/История БХК/">История БХК</a></li>
+									<li><a href="/О компании/Путь хлеба/">Путь хлеба</a></li>
+									<li><a href="/О компании/Видео/">Видео</a></li>
+									<li><a href="/О компании/Награды/">Награды</a></li>
+									<li><a href="/О компании/адреса_фирменных_магазинов/">Адреса фирменных магазинов</a></li>
+									<li><a href="/О компании/Политика_компании/">Политика компании</a></li>
+								</ul>
+							</li>
+							<li><a href="/Продукция/">Продукция</a></li>
+							<li><a href="/Клиентам/">Клиентам</a></li>
+							<li><a href="/Новости/">Новости</a></li>
+							<li><a href="/Контакты/">Контакты</a></li>
+							<li id="searchButtonHeader">
+								<i class="search fa fa-search search-btn"></i>
+								<div class="search-open">
+									<form class="form-inline" name="searchFormHeader" action="/Поиск/" method="post">
+										<div class="input-group">
+											<input type="text" name="q" class="form-control" placeholder="Введите запрос" id="searchWidgetAutoCompleteHeader">
+											<span class="input-group-btn">
+												<button class="btn-u" type="button" onclick="this.form.submit(); return false;">Искать</button>
+											</span>
+										</div>
+									</form>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div class="breadcrumbs">
+				<div class="container">
+					<ul class="pull-right breadcrumb hidden-xs"></ul>
+				</div>
+			</div>
+			<div id="go-to-orders" class="hidden margin-top-md hidden-sm hidden-xs">
+				<div>
+					<a href="/orders/" class="gto-button gto-button-color"><i class="fa fa-key gto-icon" aria-hidden="true"></i>Личный кабинет</a>
+				</div>
+			</div>
+		</header>
+</div></div>
+
+<!--===Слайдер ===-->
+<div class="slider-container">
+	<div class="slider">
+	  <div class="slide"><img src="images/img for slider/rulet s makom.jpg" alt="Slide 1"></div>
+	  <div class="slide"><img src="images/img for slider/sloika s povid.jpg" alt="Slide 2"></div>
+	  <div class="slide"><img src="images/img for slider/sloika ubilein.jpg" alt="Slide 3"></div>
+	  <div class="slide"><img src="images/img for slider/vatrushka s tvor.jpg" alt="Slide 4"></div>
+	</div>
+	<div class="slider-indicators"></div>
+  </div>
+
+  <script>
+	const slider = document.querySelector('.slider');
+	const slides = document.querySelectorAll('.slide');
+	const indicatorsContainer = document.querySelector('.slider-indicators');
+  
+	let counter = 0;
+	const slideWidth = slides[0].clientWidth;
+	let intervalId;
+  
+	// Создание индикаторов
+	slides.forEach((_, index) => {
+	  const indicator = document.createElement('div');
+	  indicator.classList.add('indicator');
+	  indicator.addEventListener('click', () => {
+		counter = index;
+		updateSlider();
+		resetInterval();
+	  });
+	  indicatorsContainer.appendChild(indicator);
+	});
+  
+	const indicators = document.querySelectorAll('.indicator');
+  
+	function updateSlider() {
+	  slider.style.transform = `translateX(-${counter * slideWidth}px)`;
+	  indicators.forEach((indicator, index) => {
+		indicator.classList.toggle('active', index === counter);
+	  });
+	}
+  
+	function nextSlide() {
+	  counter++;
+	  if (counter >= slides.length) {
+		counter = 0;
+	  }
+	  updateSlider();
+	}
+  
+	function startInterval() {
+	  intervalId = setInterval(nextSlide, 4000); // 4000 мс = 4 секунды
+	}
+  
+	function resetInterval() {
+	  clearInterval(intervalId);
+	  startInterval();
+	}
+  
+	// Инициализация
+	updateSlider();
+	startInterval();
+  </script>
+
+
+
+
+<div>
+
+<div class="container mt-40"><div>
+
+<div class=""><div class="col-xs-12"></div></div>
+
+
+
+<div class=""><div class="col-xs-12"><div class="thk-divaider pt-20">
+	<div class="$(param)">
+<hr class="thk-divaider-t">
+<h1><span><a href="/Новости/" title="Новости">НОВОСТИ</a></span></h1>
+<hr class="thk-divaider-b">
+</div></div>
+</div></div>
+
+
+<div class=""><div class="col-xs-12"><div>
+			<div class="" posts="" lists"="">
+						<div>
+		<div id="list_large_pages">
+					<div class="row mb-20">
+			<section id="listOptions" class="btn-group pull-right">
+				</section>
+		</div>
+		<div id="list_large_page_1">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb-20">
+			<div class="thk-rectangle">
+				<a href="/Новости/Нежные_и_ароматные/">
+					<img src="images/Dishes/obojaika.jpg" alt="Обожайка" class="img-responsive"></a>
+					<div class="thk-mpnews-alpha thk-teaser-on-main overflow-hidden">
+						<h4><a href="/Новости/Нежные_и_ароматные/">Нежная и вкусная</a></h4>
+  						<p>Вкусная булчка "Обожайка" с маковой начинкой, покрытая сверху шоколадной глазурью</p>
+						</div>
+	
+				</div>
+				
+			</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb-20">
+			<div class="thk-rectangle">
+				<a href="/Новости/Слайсы_пшеничные_глазированные/">
+					<img src="images/Dishes/cherkizov.jpg" alt="Булка Черкизовская" class="img-responsive"></a>
+					<div class="thk-mpnews-alpha thk-teaser-on-main overflow-hidden">
+						<h4><a href="/Новости/Слайсы_пшеничные_глазированные/">Сытная булка с кунжутом "Черкизовская"</a></h4>
+  						<p>Быстрый и сытный перекус! </p>
+						</div>
+	
+				</div>
+				
+			</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb-20">
+			<div class="thk-rectangle">
+				<a href="/Новости/Печенье_Кантучини-00002/">
+					<img src="images/Dishes/bulbelosnezhka.jpg" alt=" " class="img-responsive"></a>
+					<div class="thk-mpnews-alpha thk-teaser-on-main overflow-hidden">
+						<h4><a href="/Новости/Печенье_Кантучини-00002/">Булочка "Белоснежка"</a></h4>
+  						<p>Сдобная булочка, с фруктовой начинкой, покрытая белой шоколадной глазурью</p>
+						</div>
+	
+				</div>
+				
+			</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 mb-20">
+			<div class="thk-rectangle">
+				<a href="/Новости/Торт_Фантазия-00001/">
+					<img src="images/Dishes/rojdestv.jpg" alt="Булочка Рождественская" class="img-responsive"></a>
+					<div class="thk-mpnews-alpha thk-teaser-on-main overflow-hidden">
+						<h4><a href="/Новости/Торт_Фантазия-00001/">Булочка "Рождественская"</a></h4>
+  						<p>Булочка из пшеничной муки 1-го сорта с маковой начинкой</p>
+						</div>
+	
+				</div>
+				
+			</div>
+</div>
+				</div>
+				<!-- show pagination if it should be given and if it's really necessary -->
+  				</div>
+</div>
+
+					<script type="text/javascript">
+						var lock = false;
+						function reloadInnerList(searchStateParameters) {
+							$('.spinner').show();
+							$("#a647545a-53e4-11e6-a52c-000c298914ef-inner").hide();
+							$.get("/system/modules/my.company.template/elements/list-inner.jsp?cssID=a647545a-53e4-11e6-a52c-000c298914ef-inner&categoryFacetField=category_exact&typesToCollect=a-blog:4339398c-53f7-11e6-a52c-000c298914ef&categoriesToCollect=/.categories/stati/novosti/&pathes=/sites/THK/&showDate=false&showSort=false&showCategoryFilter=false&itemsPerPage=4&buttonColor=red&compactForm=false&teaserLength=20&extraQueries=&__locale=ru&sortOrder=desc&pageUri=/index.html&listConfig=/.content/lists/l_00001-copy.xml&categoriesToCollect=&"
+									.concat(searchStateParameters), function(
+									resultList) {
+								$('.posts').html(resultList);
+								$('.spinner')
+										.css('animated infinite bounceOut');
+							});
+							$('html, body').animate(
+									{
+										scrollTop : $(".list-entry:first")
+												.offset().top - 100
+									}, 1000);
+						}
+
+						function appendInnerList(searchStateParameters) {
+							if (!lock) {
+								lock = true;
+								$('.spinner').show();
+								$.get("/system/modules/my.company.template/elements/list-inner.jsp?cssID=a647545a-53e4-11e6-a52c-000c298914ef-inner&categoryFacetField=category_exact&typesToCollect=a-blog:4339398c-53f7-11e6-a52c-000c298914ef&categoriesToCollect=/.categories/stati/novosti/&pathes=/sites/THK/&showDate=false&showSort=false&showCategoryFilter=false&itemsPerPage=4&buttonColor=red&compactForm=false&teaserLength=20&extraQueries=&__locale=ru&sortOrder=desc&pageUri=/index.html&listConfig=/.content/lists/l_00001-copy.xml&categoriesToCollect=&hideOptions=true&"
+										.concat(searchStateParameters),
+										function(resultList) {
+											$('#loadMore').parent().remove();
+											$(resultList).appendTo(
+													'#a647545a-53e4-11e6-a52c-000c298914ef-inner').find(
+													'.list-entry');
+
+											;
+											lock = false;
+											$('.spinner').hide();
+
+										});
+							}
+						}
+					</script>
+					<script>
+								function initList() {
+									//Nothing has to initialized in case of a static list.
+								}
+							</script>
+						</div>
+	</div></div>
+
+
+
+<div class=""><div class="col-xs-12"><div class="thk-divaider">
+	<div class="$(param)">
+<hr class="thk-divaider-t">
+<h1><span><a href="/Продукция/Каталог/Новинки.html" title="Новинки">НОВИНКИ</a></span></h1>
+<hr class="thk-divaider-b">
+</div></div>
+</div></div>
+
+
+<div class="row "><div class="col-lg-4 col-md-4 col-sm-4"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-15">
+		<div class="overflow-hidden">
+		<a href="/Продукция/Каталог/Пирожное_Оранжевый_вельвет/" title="Пирожное Оранжевый вельвет">
+		
+		<div class="thk-list-image-glint thk-square">
+			<div class="thk-square1" style="background-image:url('images/Dishes/Novinki/bulochka_oblachko.jpg');  background-size:contain;">
+					<div class="thk-list-alpha fa-center thk-list-text">Булочка "Облачко"</div>
+			</div>
+		</div>
+
+			</a>
+		</div>
+	</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-15">
+		<div class="overflow-hidden">
+		<a href="/Продукция/Каталог/Торт_Лесная_ягода/" title="Торт Лесная ягода">
+		
+		<div class="thk-list-image-glint thk-square">
+			<div class="thk-square1" style="background-image:url('images/Dishes/Novinki/bulochka_vishenka.jpg');  background-size:contain;">
+					<div class="thk-list-alpha fa-center thk-list-text">Булочка "Вишенка"</div>
+			</div>
+		</div>
+
+			</a>
+		</div>
+	</div>
+</div><div class="col-lg-4 col-md-4 col-sm-4"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-15">
+		<div class="overflow-hidden">
+		<a href="/Продукция/Каталог/Торт_Сюрприз/" title="Торт Сюрприз">
+		
+		<div class="thk-list-image-glint thk-square">
+			<div class="thk-square1" style="background-image:url('images/Dishes/Novinki/hleb_kukuruzny.jpg');  background-size:contain;">
+					<div class="thk-list-alpha fa-center thk-list-text">Хлеб "Кукурузный"</div>
+			</div>
+		</div>
+
+			</a>
+		</div>
+	</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-15">
+		<div class="overflow-hidden">
+		<a href="/Продукция/Каталог/Пирожное_Карамелька/" title="Пирожное Карамелька">
+		
+		<div class="thk-list-image-glint thk-square">
+			<div class="thk-square1" style="background-image:url('images/Dishes/Novinki/kalach_cheremonial.jpg');  background-size:contain;">
+					<div class="thk-list-alpha fa-center thk-list-text">Калач "Черемониал"</div>
+			</div>
+		</div>
+
+			</a>
+		</div>
+	</div>
+</div><div class="col-lg-4 col-md-4 col-sm-4"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-15">
+		<div class="overflow-hidden">
+		<a href="/Продукция/Каталог/Пирожное_Зеленый_вельвет/" title="Пирожное Зеленый вельвет">
+		
+		<div class="thk-list-image-glint thk-square">
+			<div class="thk-square1" style="background-image:url('images/Dishes/Novinki/pampush_apetitnaya.jpg');  background-size:contain;">
+					<div class="thk-list-alpha fa-center thk-list-text">Пампушка "Аппетитная"</div>
+			</div>
+		</div>
+
+			</a>
+		</div>
+	</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mb-15">
+		<div class="overflow-hidden">
+		<a href="/Продукция/Каталог/Торт_Комплимент/" title="Торт Комплимент">
+		
+		<div class="thk-list-image-glint thk-square">
+			<div class="thk-square1" style="background-image:url('images/Dishes/Novinki/rojok_yabloch.jpg');  background-size:contain;">
+					<div class="thk-list-alpha fa-center thk-list-text">Рожок "Яблочный"</div>
+			</div>
+		</div>
+
+			</a>
+		</div>
+	</div>
+</div></div>
+
+
+<div class=""><div class="col-xs-12"><div class="thk-divaider">
+	<div class="$(param)">
+<hr class="thk-divaider-t">
+<h1><span><a href="/О компании/Награды/" title="Наши награды">НАГРАДЫ</a></span></h1>
+<hr class="thk-divaider-b">
+</div></div>
+
+
+<div class="row "><div class="col-xs-12"><div class="ap-sec ">
+  
+
+<div class="ap-img ap-img-v0">
+
+		<a href="/О компании/Награды/" title="Наши награды">
+		<div class="ap-img-pic ">
+				<span data-imagednd="0062a397-6f80-11e6-9a4e-000c291c33c3|Image[1]/Image[1]|ru">
+						<img src="images/15.jpg" class="img-responsive " alt=" " title=" ">
+				</span>
+		</div>
+
+		</a>
+		</div>
+
+
+
+</div>
+</div></div>
+
+</div></div>
+
+
+
+</div></div>
+
+
+</div>
+
+<footer class="footer-thk">
+	<div class="container">
+	  <div class="row thk-ok">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		  <div class="thk-modal-show row">
+			<div id="imgDiv">
+			  <a href="#myModalNorm" title="Написать отзыв" data-toggle="modal">
+				<img src="images/pic.png" alt="Написать отзыв">
+			  </a>
+			</div>
+			<div id="txtDiv">
+			  <a href="#myModalNorm" title="Написать отзыв" data-toggle="modal">Написать отзыв</a>
+			</div>
+		  </div>
+		</div>
+  
+		<div class="col-lg-6 col-md-6 hidden-sm hidden-xs text-right">
+		  <address class="thk-adr visible-lg" style="font-size: 12px;">
+			© 2025 ОАО "Бендерский хлеб" <br>
+			md3300, ПМР, г. Бендеры, ул. Суворова, 116;<br>
+			<i class="fa fa-phone" aria-hidden="true"></i> +373 (552) 2-43-36<br>
+		  </address>
+		  <address class="thk-adr visible-md" style="font-size: 10px;">
+			© 2018 ЗАО "Тираспольский хлебокомбинат" <br>
+			md3300, ПМР, г. Тирасполь, ул. 9 Января, 192;<br>
+			<i class="fa fa-phone" aria-hidden="true"></i> +373 533 9-42-25<br>
+			<i class="fa fa-fax" aria-hidden="true"></i> +373 533 9-72-70<br>
+		  </address>
+		</div>
+	  </div>
+  
+	  <div class="row hidden-lg hidden-md">
+		<div class="col-xs-12 col-sm-6 thk-modal-show thk-modal-show-sm-xs row">
+		  <div style="text-align: end; width: 200px;">
+			<div id="imgDiv">
+			  <a href="#myModalNorm" title="Написать отзыв" data-toggle="modal">
+				<img src="images/pic.png" alt="Написать отзыв">
+			  </a>
+			</div>
+			<div id="txtDiv">
+			  <a href="#myModalNorm" title="Написать отзыв" data-toggle="modal">Написать отзыв</a>
+			</div>
+		  </div>
+		</div>
+	  </div>
+  
+	  <div class="modal fade thk-modal-send" id="myModalNorm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal" id="CloseModalButton">
+				<span aria-hidden="true">×</span>
+				<span class="sr-only">Закрыть</span>
+			  </button>
+			  <h4 class="modal-title" id="myModalLabel">Отправить отзыв</h4>
+			</div>
+			<div class="modal-body">
+			  <form role="form" id="eform" method="post">
+				<div id="form-fields">
+				  <div class="form-group">
+					<label for="id-name" class="form-control-label">Ваше имя</label>
+					<input type="text" class="form-control" id="id-name" name="id-name" placeholder="Ваше имя">
+				  </div>
+				  <div class="form-group">
+					<label for="id-email" class="form-control-label">Ваш email</label>
+					<input type="email" class="form-control" id="id-email" name="id-email" placeholder="Ваш email">
+				  </div>
+				  <div class="form-group">
+					<textarea class="form-control" id="id-text" name="id-text" placeholder="Пожалуйста оставьте ваш отзыв"></textarea>
+				  </div>
+				</div>
+				<div id="thanks-for-feedback" style="transform: translate(130px,-140px); font-size: x-large; display: none; position: absolute;">
+				  Спасибо за ваши отзывы!!!
+				</div>
+				<button class="btn btn-default" id="send-fb">Отправить</button>
+				<button class="btn btn-default" data-dismiss="modal" id="close-fb">Закрыть</button>
+			  </form>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </footer>
+  
+  <script>
+	function sitemap() {
+	  $('li.parent').click(function() {
+		$(this).find('ul').slideToggle();
+		$(this).find('i').toggleClass('open');
+	  });
+	}
+	sitemap();
+  </script>
+  
+  <script>
+	function sitemap() {
+	  $('li.parent').click(function() {
+		$(this).find('ul').slideToggle();
+		$(this).find('i').toggleClass('open');
+	  });
+	}
+	sitemap();
+  </script>
+  
+  <script src="https://maps.google.com/maps/api/js?sensor=false&language=${locale}"></script>
+  <script>
+	// ... (ваш код для Google Maps) ...
+  </script>
+
+</div></div>
+
+</div></div>
+	<!--/wrapper-->
+
+	
+<script type="text/javascript" src="js/scripts-all.min.js"></script>
+<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript">
+sitemap();
+
+initList();
+
+
+</script>
+<script type="text/javascript">
+	var $v_top;
+	function calc_sm(){
+		var v_slider_top;
+		var v_slider_heght;
+		if(typeof $("#top_slider").offset() == "undefined"){
+			if(typeof $(".thk-container").offset() == "undefined")
+			{
+				v_slider_top=0;
+				v_slider_heght=0;
+			}else{
+				v_slider_top=$(".thk-container").offset().top;
+				v_slider_heght=$(".thk-container").height();
+			}
+		}else{
+			v_slider_top=$("#top_slider").offset().top;
+			v_slider_heght=$("#top_slider").height();
+		}
+			
+        if ($(window).scrollTop() > 0) {
+           if ($(window).scrollTop()+$v_top+$("#sm_container").height() <$("#footer-thk").offset().top){
+			   if ($("#sm_container").offset().top >v_slider_top+v_slider_heght)
+			   {
+					$("#sm_container").stop().animate({top:$(window).scrollTop()+$v_top}); 
+					
+			   }else{
+				   $("#sm_container").stop().animate({top:v_slider_top+v_slider_heght+15}); 
+				   
+			   }
+            }else{
+          		$("#sm_container").stop().animate({top:$("#footer-thk").offset().top-$("#sm_container").height()-250});  
+				
+            }
+        
+        }else{
+			 if ($v_top+$("#sm_container").height()<$("#footer-thk").offset().top){
+			   if ($v_top >v_slider_top+v_slider_heght)
+			   {
+					$("#sm_container").stop().animate({top:$v_top});
+					
+			   }else{
+				   $("#sm_container").stop().animate({top:v_slider_top+v_slider_heght+15}); 
+				   
+			   }
+            }else{
+          		$("#sm_container").stop().animate({top:$("#footer-thk").offset().top-$("#sm_container").height()-50});  
+				
+            }
+        }
+            
+	}
+/*******************************************************************************************/	
+/*******************************************************************************************/
+/*******************************************************************************************/
+		jQuery(document).ready(function() {
+			App.init();
+			try {
+				createBanner();
+			} catch (e) {}
+			try {
+				$("#list_pagination").bootstrapPaginator(options);
+			} catch (e) {};
+		 	
+$v_top=$(window).height()-$("#sm_container").height()-256;
+$("#sm_container").stop().animate({top:$v_top,visibility:'visible'});
+		
+$(window).scroll(function () {
+calc_sm();
+});
+
+$( window ).resize(function() {
+$v_top=$(window).height()-$("#sm_container").height()-256;
+calc_sm();
+});
+calc_sm();
+
+
+		});
+	</script>
+	<!--[if lt IE 9]>
+		<script src="/export/system/modules/org.opencms.apollo.template.basics/resources/compatibility/respond.js"></script>
+		<script src="/export/system/modules/org.opencms.apollo.template.basics/resources/compatibility/html5shiv.js"></script>
+		<script src="/export/system/modules/org.opencms.apollo.template.basics/resources/compatibility/placeholder-IE-fixes.js"></script>
+	<![endif]-->
+	</div>
+</body>
+</html>
