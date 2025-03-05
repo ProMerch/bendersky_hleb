@@ -1,23 +1,26 @@
  /*---------------------------------------*/
  
-       .sm_container{
-       width:64px;
-       height:276px;
-       left:5px;
-       position:absolute;
-       top:80%;
-	   z-index:99999;
-      }
-	  
-	  .sm_item{
-		padding-bottom: 5px;
-	  }
-	  
-	  @media screen and (max-width: 900px) {
-		  .sm_container{
-			  display: none;
-		  }
-	  }
+ .sm_container {
+    width: 64px;
+    height: auto; /* Изменяем высоту на auto, чтобы она подстраивалась под контент */
+    position: fixed; /* Изменяем на fixed */
+    top: 50%; /* Центрируем по вертикали */
+    left: 5px; /* Перемещаем на правую сторону (можно изменить) */
+    transform: translateY(-50%); /* Центрируем по вертикали */
+    z-index: 99999;
+    display: flex; /* Используем flexbox для вертикального расположения */
+    flex-direction: column; /* Вертикальное расположение элементов */
+}
+
+.sm_item {
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    .sm_container {
+        display: none;
+    }
+}
 /*---------------------------------------*/
 
 .header {
